@@ -11,7 +11,7 @@ use AIDL to define your interface.
 
 # Here's a summary of how to use a Messenger
 
-# 1.  The service implements a Handler that receives a callback for each call from a client.
+1.  The service implements a Handler that receives a callback for each call from a client.
 2.  The service uses the Handler to create a Messenger object (which is a reference to the Handler).
 3.  The Messenger creates an IBinder that the service returns to clients from onBind().
 4.  Clients use the IBinder to instantiate the Messenger (that references the service's Handler), 
